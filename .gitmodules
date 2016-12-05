@@ -1,0 +1,3 @@
+[submodule "Assets/Julyee/JSON"]
+	path = Assets/Julyee/JSON
+	url = https://github.com/Julyee/JSON.git
