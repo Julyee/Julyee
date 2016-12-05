@@ -1,3 +1,6 @@
 [submodule "Assets/Julyee/JSON"]
 	path = Assets/Julyee/JSON
 	url = https://github.com/Julyee/JSON.git
+[submodule "Assets/Julyee/GUI"]
+	path = Assets/Julyee/GUI
+	url = https://github.com/Julyee/GUI.git
