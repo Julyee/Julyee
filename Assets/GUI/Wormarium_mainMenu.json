@@ -1,0 +1,3532 @@
+{
+	"exporter-version": "1.0.0",
+	"export-name": "Wormarium_mainMenu",
+	"export-rect": {
+		"x": 0,
+		"y": 0,
+		"width": 1080,
+		"height": 1620
+	},
+	"layout": [
+		{
+			"name": "W_mainMenu_worms",
+			"id": "resources/spine/mainMenu_worms.json",
+			"class": "P2.Spine",
+			"misc": "{\n    \"defaultAnimation\":\"dancing01\",\n    \"syncToMusic\":true\n}",
+			"maintainRelativeScale": true,
+			"horizontalPosition": "P2GUI_relative",
+			"horizontalRelative": 0.5,
+			"horizontalSnapTo": "P2GUI_left",
+			"verticalPosition": "P2GUI_snap",
+			"verticalRelative": 0.689,
+			"verticalSnapTo": "P2GUI_bottom",
+			"rect": {
+				"x": 89,
+				"y": 612,
+				"width": 902,
+				"height": 1129
+			},
+			"position": {
+				"x": 540,
+				"y": 1176.5
+			},
+			"properties": {
+				"name": "W_mainMenu_worms",
+				"color": "none",
+				"visible": true,
+				"mode": "normal",
+				"opacity": 255,
+				"layerID": 471,
+				"itemIndex": 6,
+				"count": 48,
+				"preserveTransparency": false,
+				"layerFXVisible": false,
+				"globalAngle": 120,
+				"background": false,
+				"layerSection": "layerSectionContent",
+				"layerLocking": {
+					"protectTransparency": false,
+					"protectComposite": false,
+					"protectPosition": false,
+					"protectAll": false
+				},
+				"group": false,
+				"targetChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"visibleChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"channelRestrictions": [
+					"red",
+					"grain",
+					"blue"
+				],
+				"fillOpacity": 255,
+				"hasUserMask": false,
+				"hasVectorMask": false,
+				"proportionalScaling": false,
+				"layerKind": 5,
+				"hasFilterMask": false,
+				"userMaskDensity": 255,
+				"userMaskFeather": 0,
+				"vectorMaskDensity": 255,
+				"vectorMaskFeather": 0,
+				"bounds": {
+					"top": 612,
+					"left": 89,
+					"bottom": 1741,
+					"right": 991,
+					"width": 902,
+					"height": 1129
+				},
+				"boundsNoEffects": {
+					"top": 612,
+					"left": 89,
+					"bottom": 1741,
+					"right": 991,
+					"width": 902,
+					"height": 1129
+				},
+				"smartObject": {
+					"placed": "rasterizeContent",
+					"documentID": "",
+					"compsList": {
+						"compID": -1,
+						"originalCompID": -1
+					},
+					"linked": false,
+					"fileReference": "W_mainMenu_worms.png"
+				},
+				"useAlignedRendering": false,
+				"generatorSettings": {
+				},
+				"keyOriginType": [
+
+				],
+				"fillEnabled": false,
+				"animationProtection": {
+					"animationUnifyPosition": false,
+					"animationUnifyEffects": false,
+					"animationUnifyVisibility": false,
+					"animationPropagate": true
+				},
+				"artboard": {
+					"artboardRect": {
+						"top": 0,
+						"left": 0,
+						"bottom": 0,
+						"right": 0
+					}
+				},
+				"artboardEnabled": false
+			}
+		},
+		{
+			"name": "WormariumArcade_logo",
+			"id": null,
+			"class": "P2.LocalizedNode",
+			"misc": "{\n    \"default\":\"Logo\",\n    \"en\":\"Logo\",\n    \"es\":\"Logo\",\n    \"zh-Hans\":\"Logo_ZH\",\n    \"zh-Hant\":\"Logo_ZH-Hant\"  \n}",
+			"maintainRelativeScale": true,
+			"horizontalPosition": "P2GUI_relative",
+			"horizontalRelative": 0.5,
+			"horizontalSnapTo": "P2GUI_left",
+			"verticalPosition": "P2GUI_snap",
+			"verticalRelative": 0.219,
+			"verticalSnapTo": "P2GUI_top",
+			"rect": {
+				"x": 38,
+				"y": 243,
+				"width": 1004,
+				"height": 223
+			},
+			"position": {
+				"x": 540,
+				"y": 354.5
+			},
+			"properties": {
+				"name": "WormariumArcade_logo",
+				"color": "blue",
+				"visible": true,
+				"mode": "passThrough",
+				"opacity": 255,
+				"layerID": 900,
+				"itemIndex": 11,
+				"count": 48,
+				"preserveTransparency": false,
+				"layerFXVisible": false,
+				"globalAngle": 120,
+				"background": false,
+				"layerSection": "layerSectionStart",
+				"layerLocking": {
+					"protectTransparency": false,
+					"protectComposite": false,
+					"protectPosition": false,
+					"protectAll": false
+				},
+				"group": false,
+				"targetChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"visibleChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"channelRestrictions": [
+					"red",
+					"grain",
+					"blue"
+				],
+				"fillOpacity": 255,
+				"hasUserMask": false,
+				"hasVectorMask": false,
+				"proportionalScaling": false,
+				"layerKind": 7,
+				"hasFilterMask": false,
+				"userMaskDensity": 255,
+				"userMaskFeather": 0,
+				"vectorMaskDensity": 255,
+				"vectorMaskFeather": 0,
+				"bounds": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"boundsNoEffects": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"useAlignedRendering": false,
+				"generatorSettings": {
+				},
+				"keyOriginType": [
+
+				],
+				"fillEnabled": false,
+				"animationProtection": {
+					"animationUnifyPosition": false,
+					"animationUnifyEffects": false,
+					"animationUnifyVisibility": false,
+					"animationPropagate": true
+				},
+				"artboard": {
+					"artboardRect": {
+						"top": 0,
+						"left": 0,
+						"bottom": 0,
+						"right": 0
+					}
+				},
+				"artboardEnabled": false
+			},
+			"children": [
+				{
+					"name": "Logo",
+					"id": "resources/spine/WMArcade_logo.json",
+					"class": "P2.Spine",
+					"misc": "{\n    \"defaultAnimation\":\"animation\",\n    \"timeScale\":1.0\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": 0.5,
+					"horizontalSnapTo": "P2GUI_leftRight",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": 0.219,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": 38,
+						"y": 243,
+						"width": 1004,
+						"height": 223
+					},
+					"position": {
+						"x": 540,
+						"y": 354.5
+					},
+					"properties": {
+						"name": "Logo",
+						"color": "blue",
+						"visible": true,
+						"mode": "normal",
+						"opacity": 255,
+						"layerID": 3,
+						"itemIndex": 8,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionContent",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 5,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 243,
+							"left": 38,
+							"bottom": 466,
+							"right": 1042,
+							"width": 1004,
+							"height": 223
+						},
+						"boundsNoEffects": {
+							"top": 243,
+							"left": 38,
+							"bottom": 466,
+							"right": 1042,
+							"width": 1004,
+							"height": 223
+						},
+						"smartObject": {
+							"placed": "vectorData",
+							"documentID": "uuid:70827a03-4ad6-e948-8779-55ef1776865b",
+							"linked": false,
+							"fileReference": "Vector Smart Object.ai"
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					}
+				},
+				{
+					"name": "Logo_ZH",
+					"id": "resources/spine/WMArcade_logo_ZH.json",
+					"class": "P2.Spine",
+					"misc": "{\n    \"defaultAnimation\":\"animation\",\n    \"timeScale\":1.0\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": 0.5,
+					"horizontalSnapTo": "P2GUI_leftRight",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": 0.219,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": 38,
+						"y": 243,
+						"width": 1004,
+						"height": 223
+					},
+					"position": {
+						"x": 540,
+						"y": 354.5
+					},
+					"properties": {
+						"name": "Logo_ZH",
+						"color": "blue",
+						"visible": true,
+						"mode": "normal",
+						"opacity": 255,
+						"layerID": 902,
+						"itemIndex": 9,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionContent",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 5,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 243,
+							"left": 38,
+							"bottom": 466,
+							"right": 1042,
+							"width": 1004,
+							"height": 223
+						},
+						"boundsNoEffects": {
+							"top": 243,
+							"left": 38,
+							"bottom": 466,
+							"right": 1042,
+							"width": 1004,
+							"height": 223
+						},
+						"smartObject": {
+							"placed": "vectorData",
+							"documentID": "uuid:70827a03-4ad6-e948-8779-55ef1776865b",
+							"linked": false,
+							"fileReference": "Vector Smart Object.ai"
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					}
+				},
+				{
+					"name": "Logo_ZH-Hant",
+					"id": "resources/spine/WMArcade_logo_ZH-HANT.json",
+					"class": "P2.Spine",
+					"misc": "{\n    \"defaultAnimation\":\"animation\",\n    \"timeScale\":1.0\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": 0.5,
+					"horizontalSnapTo": "P2GUI_leftRight",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": 0.219,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": 38,
+						"y": 243,
+						"width": 1004,
+						"height": 223
+					},
+					"position": {
+						"x": 540,
+						"y": 354.5
+					},
+					"properties": {
+						"name": "Logo_ZH-Hant",
+						"color": "blue",
+						"visible": true,
+						"mode": "normal",
+						"opacity": 255,
+						"layerID": 951,
+						"itemIndex": 10,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionContent",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 5,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 243,
+							"left": 38,
+							"bottom": 466,
+							"right": 1042,
+							"width": 1004,
+							"height": 223
+						},
+						"boundsNoEffects": {
+							"top": 243,
+							"left": 38,
+							"bottom": 466,
+							"right": 1042,
+							"width": 1004,
+							"height": 223
+						},
+						"smartObject": {
+							"placed": "vectorData",
+							"documentID": "uuid:70827a03-4ad6-e948-8779-55ef1776865b",
+							"linked": false,
+							"fileReference": "Vector Smart Object.ai"
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					}
+				}
+			]
+		},
+		{
+			"name": "Settings_button",
+			"id": null,
+			"class": "P2.ButtonShrink",
+			"misc": "{\n    \"canBeFocused\": false,\n    \"remoteButton\": \"menu\",\n     \"action\" : {\n        \"name\":\"PushLayoutScene\",\n        \"filePath\":\"resources/gui/Settings_menu.json\",\n        \"sceneName\":\"Settings_menu\"\n    }\n}",
+			"maintainRelativeScale": true,
+			"horizontalPosition": "P2GUI_snap",
+			"horizontalRelative": 1.109,
+			"horizontalSnapTo": "P2GUI_right",
+			"verticalPosition": "P2GUI_snap",
+			"verticalRelative": 0.931,
+			"verticalSnapTo": "P2GUI_bottom",
+			"rect": {
+				"x": 907,
+				"y": 1445,
+				"width": 168,
+				"height": 124
+			},
+			"position": {
+				"x": 991,
+				"y": 1507
+			},
+			"properties": {
+				"name": "Settings_button",
+				"color": "blue",
+				"visible": true,
+				"mode": "passThrough",
+				"opacity": 255,
+				"layerID": 312,
+				"itemIndex": 15,
+				"count": 48,
+				"preserveTransparency": false,
+				"layerFXVisible": false,
+				"globalAngle": 120,
+				"background": false,
+				"layerSection": "layerSectionStart",
+				"layerLocking": {
+					"protectTransparency": false,
+					"protectComposite": false,
+					"protectPosition": false,
+					"protectAll": false
+				},
+				"group": false,
+				"targetChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"visibleChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"channelRestrictions": [
+					"red",
+					"grain",
+					"blue"
+				],
+				"fillOpacity": 255,
+				"hasUserMask": false,
+				"hasVectorMask": false,
+				"proportionalScaling": false,
+				"layerKind": 7,
+				"hasFilterMask": false,
+				"userMaskDensity": 255,
+				"userMaskFeather": 0,
+				"vectorMaskDensity": 255,
+				"vectorMaskFeather": 0,
+				"bounds": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"boundsNoEffects": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"useAlignedRendering": false,
+				"generatorSettings": {
+				},
+				"keyOriginType": [
+
+				],
+				"fillEnabled": false,
+				"animationProtection": {
+					"animationUnifyPosition": false,
+					"animationUnifyEffects": false,
+					"animationUnifyVisibility": false,
+					"animationPropagate": true
+				},
+				"artboard": {
+					"artboardRect": {
+						"top": 0,
+						"left": 0,
+						"bottom": 0,
+						"right": 0
+					}
+				},
+				"artboardEnabled": false
+			},
+			"children": [
+				{
+					"name": "Settings_button_mask",
+					"id": "Settings_button_texture",
+					"class": "P2.Scale9",
+					"misc": "{\n\"arbitraryScale\":true,\n\"arbitraryLook\":false\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": 0.94,
+					"horizontalSnapTo": "P2GUI_left",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": 0.93,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": 907,
+						"y": 1445,
+						"width": 168,
+						"height": 124
+					},
+					"position": {
+						"x": 991,
+						"y": 1507
+					},
+					"properties": {
+						"name": "Settings_button_mask",
+						"color": "blue",
+						"visible": true,
+						"mode": "normal",
+						"opacity": 255,
+						"layerID": 564,
+						"itemIndex": 13,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionContent",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 5,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 1445,
+							"left": 907,
+							"bottom": 1569,
+							"right": 1075,
+							"width": 168,
+							"height": 124
+						},
+						"boundsNoEffects": {
+							"top": 1445,
+							"left": 907,
+							"bottom": 1569,
+							"right": 1075,
+							"width": 168,
+							"height": 124
+						},
+						"smartObject": {
+							"placed": "rasterizeContent",
+							"documentID": "xmp.did:565e44a7-1299-4339-b62c-31b50e07d2ab",
+							"compsList": {
+								"compID": -1,
+								"originalCompID": -1
+							},
+							"linked": false,
+							"fileReference": "Settings_button_texture.psb"
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					}
+				},
+				{
+					"name": "Settings_icon",
+					"id": null,
+					"class": "PIXI.Sprite",
+					"misc": null,
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": null,
+					"horizontalSnapTo": "P2GUI_left",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": null,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": 941,
+						"y": 1468,
+						"width": 99.9999999999999,
+						"height": 78
+					},
+					"position": {
+						"x": 991,
+						"y": 1507
+					},
+					"properties": {
+						"name": "Settings_icon",
+						"color": "none",
+						"visible": true,
+						"mode": "normal",
+						"opacity": 255,
+						"layerID": 347,
+						"itemIndex": 14,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionContent",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 5,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 1468,
+							"left": 941,
+							"bottom": 1546,
+							"right": 1041,
+							"width": 100,
+							"height": 78
+						},
+						"boundsNoEffects": {
+							"top": 1468,
+							"left": 941,
+							"bottom": 1546,
+							"right": 1041,
+							"width": 100,
+							"height": 78
+						},
+						"smartObject": {
+							"placed": "vectorData",
+							"documentID": "uuid:e4111398-53ea-6e44-8262-4405be711d4d",
+							"linked": false,
+							"fileReference": "Vector Smart Object.ai"
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					}
+				}
+			]
+		},
+		{
+			"name": "Audio_settings",
+			"id": null,
+			"class": "P2.SlidingNode",
+			"misc": "{\n    \"direction\":\"HORIZONTAL\",\n    \"distance\":300,\n    \"time\":0.5,\n    \"slideForthEvent\":\"mainMenuAudioSlideOn\",\n    \"slideBackEvent\":\"mainMenuAudioSlideOff\",\n    \"easing\": {\n        \"type\":\"P2.Easing.Back.EaseOut\"\n    }\n}",
+			"maintainRelativeScale": true,
+			"horizontalPosition": "P2GUI_snap",
+			"horizontalRelative": -0.109,
+			"horizontalSnapTo": "P2GUI_left",
+			"verticalPosition": "P2GUI_snap",
+			"verticalRelative": 0.931,
+			"verticalSnapTo": "P2GUI_bottom",
+			"rect": {
+				"x": -376,
+				"y": 1446,
+				"width": 516,
+				"height": 124
+			},
+			"position": {
+				"x": -118,
+				"y": 1508
+			},
+			"properties": {
+				"name": "Audio_settings",
+				"color": "blue",
+				"visible": true,
+				"mode": "passThrough",
+				"opacity": 255,
+				"layerID": 308,
+				"itemIndex": 37,
+				"count": 48,
+				"preserveTransparency": false,
+				"layerFXVisible": false,
+				"globalAngle": 120,
+				"background": false,
+				"layerSection": "layerSectionStart",
+				"layerLocking": {
+					"protectTransparency": false,
+					"protectComposite": false,
+					"protectPosition": false,
+					"protectAll": false
+				},
+				"group": false,
+				"targetChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"visibleChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"channelRestrictions": [
+					"red",
+					"grain",
+					"blue"
+				],
+				"fillOpacity": 255,
+				"hasUserMask": false,
+				"hasVectorMask": false,
+				"proportionalScaling": false,
+				"layerKind": 7,
+				"hasFilterMask": false,
+				"userMaskDensity": 255,
+				"userMaskFeather": 0,
+				"vectorMaskDensity": 255,
+				"vectorMaskFeather": 0,
+				"bounds": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"boundsNoEffects": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"useAlignedRendering": false,
+				"generatorSettings": {
+				},
+				"keyOriginType": [
+
+				],
+				"fillEnabled": false,
+				"animationProtection": {
+					"animationUnifyPosition": false,
+					"animationUnifyEffects": false,
+					"animationUnifyVisibility": false,
+					"animationPropagate": true
+				},
+				"artboard": {
+					"artboardRect": {
+						"top": 0,
+						"left": 0,
+						"bottom": 0,
+						"right": 0
+					}
+				},
+				"artboardEnabled": false
+			},
+			"children": [
+				{
+					"name": "Arrow_button_mask",
+					"id": "Settings_button_texture",
+					"class": "P2.Scale9",
+					"misc": "{\n    \"arbitraryScale\":true,\n    \"arbitraryLook\":false\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": null,
+					"horizontalSnapTo": "P2GUI_left",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": null,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": -376,
+						"y": 1446,
+						"width": 516,
+						"height": 124
+					},
+					"position": {
+						"x": -118,
+						"y": 1508
+					},
+					"properties": {
+						"name": "Arrow_button_mask",
+						"color": "none",
+						"visible": true,
+						"mode": "normal",
+						"opacity": 255,
+						"layerID": 450,
+						"itemIndex": 17,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionContent",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 5,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 1446,
+							"left": -376,
+							"bottom": 1570,
+							"right": 140,
+							"width": 516,
+							"height": 124
+						},
+						"boundsNoEffects": {
+							"top": 1446,
+							"left": -376,
+							"bottom": 1570,
+							"right": 140,
+							"width": 516,
+							"height": 124
+						},
+						"smartObject": {
+							"placed": "rasterizeContent",
+							"documentID": "xmp.did:565e44a7-1299-4339-b62c-31b50e07d2ab",
+							"compsList": {
+								"compID": -1,
+								"originalCompID": -1
+							},
+							"linked": false,
+							"fileReference": "Arrow_button_mask.psb"
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					}
+				},
+				{
+					"name": "Arrow_button",
+					"id": null,
+					"class": "P2.SwitchSpin",
+					"misc": "{\n    \"onStateEvent\":\"mainMenuAudioSlideOn\",\n    \"offStateEvent\":\"mainMenuAudioSlideOff\",\n    \"spins\":-0.5,\n    \"time\":0.5,\n    \"horizontalPadding\":0.55,\n    \"verticalPadding\":0.55,\n    \"easing\": {\n        \"type\":\"P2.Easing.Back.EaseOut\"\n    }\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": -0.109,
+					"horizontalSnapTo": "P2GUI_left",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": 0.931,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": 21,
+						"y": 1466,
+						"width": 94,
+						"height": 83.0000000000005
+					},
+					"position": {
+						"x": 68,
+						"y": 1507.5
+					},
+					"properties": {
+						"name": "Arrow_button",
+						"color": "blue",
+						"visible": true,
+						"mode": "passThrough",
+						"opacity": 255,
+						"layerID": 310,
+						"itemIndex": 20,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionStart",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 7,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"boundsNoEffects": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					},
+					"children": [
+						{
+							"name": "Arrow_icon",
+							"id": null,
+							"class": "PIXI.Sprite",
+							"misc": null,
+							"maintainRelativeScale": true,
+							"horizontalPosition": "P2GUI_absolute",
+							"horizontalRelative": null,
+							"horizontalSnapTo": "P2GUI_left",
+							"verticalPosition": "P2GUI_absolute",
+							"verticalRelative": null,
+							"verticalSnapTo": "P2GUI_top",
+							"rect": {
+								"x": 21,
+								"y": 1466,
+								"width": 94,
+								"height": 83.0000000000005
+							},
+							"position": {
+								"x": 68,
+								"y": 1507.5
+							},
+							"properties": {
+								"name": "Arrow_icon",
+								"color": "none",
+								"visible": true,
+								"mode": "normal",
+								"opacity": 255,
+								"layerID": 345,
+								"itemIndex": 19,
+								"count": 48,
+								"preserveTransparency": false,
+								"layerFXVisible": false,
+								"globalAngle": 120,
+								"background": false,
+								"layerSection": "layerSectionContent",
+								"layerLocking": {
+									"protectTransparency": false,
+									"protectComposite": false,
+									"protectPosition": false,
+									"protectAll": false
+								},
+								"group": false,
+								"targetChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"visibleChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"channelRestrictions": [
+									"red",
+									"grain",
+									"blue"
+								],
+								"fillOpacity": 255,
+								"hasUserMask": false,
+								"hasVectorMask": false,
+								"proportionalScaling": false,
+								"layerKind": 5,
+								"hasFilterMask": false,
+								"userMaskDensity": 255,
+								"userMaskFeather": 0,
+								"vectorMaskDensity": 255,
+								"vectorMaskFeather": 0,
+								"bounds": {
+									"top": 1466,
+									"left": 21,
+									"bottom": 1549,
+									"right": 115,
+									"width": 94,
+									"height": 83
+								},
+								"boundsNoEffects": {
+									"top": 1466,
+									"left": 21,
+									"bottom": 1549,
+									"right": 115,
+									"width": 94,
+									"height": 83
+								},
+								"smartObject": {
+									"placed": "vectorData",
+									"documentID": "uuid:d19c62f9-61ee-3548-8d39-bf07b063fd6f",
+									"linked": false,
+									"fileReference": "Vector Smart Object.ai"
+								},
+								"useAlignedRendering": false,
+								"generatorSettings": {
+								},
+								"keyOriginType": [
+
+								],
+								"fillEnabled": false,
+								"animationProtection": {
+									"animationUnifyPosition": false,
+									"animationUnifyEffects": false,
+									"animationUnifyVisibility": false,
+									"animationPropagate": true
+								},
+								"artboard": {
+									"artboardRect": {
+										"top": 0,
+										"left": 0,
+										"bottom": 0,
+										"right": 0
+									}
+								},
+								"artboardEnabled": false
+							}
+						}
+					]
+				},
+				{
+					"name": "Music_button",
+					"id": null,
+					"class": "P2.SwitchShrink",
+					"misc": "{\n    \"onState\":\"Music_button_on\",\n    \"offState\":\"Music_button_off\",\n    \"horizontalPadding\":0.5,\n    \"verticalPadding\":0.5,\n    \"tracking\":\"global.WM.Wormarium.musicEnabled\"\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": null,
+					"horizontalSnapTo": "P2GUI_left",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": null,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": -115,
+						"y": 1474,
+						"width": 61,
+						"height": 67
+					},
+					"position": {
+						"x": -84.5,
+						"y": 1507.5
+					},
+					"properties": {
+						"name": "Music_button",
+						"color": "blue",
+						"visible": true,
+						"mode": "passThrough",
+						"opacity": 255,
+						"layerID": 506,
+						"itemIndex": 28,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionStart",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 7,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"boundsNoEffects": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					},
+					"children": [
+						{
+							"name": "Music_button_off",
+							"id": null,
+							"class": "P2.Node",
+							"misc": null,
+							"maintainRelativeScale": true,
+							"horizontalPosition": "P2GUI_absolute",
+							"horizontalRelative": null,
+							"horizontalSnapTo": "P2GUI_left",
+							"verticalPosition": "P2GUI_absolute",
+							"verticalRelative": null,
+							"verticalSnapTo": "P2GUI_top",
+							"rect": {
+								"x": -115,
+								"y": 1474,
+								"width": 61,
+								"height": 67
+							},
+							"position": {
+								"x": -84.5,
+								"y": 1507.5
+							},
+							"properties": {
+								"name": "Music_button_off",
+								"color": "blue",
+								"visible": true,
+								"mode": "passThrough",
+								"opacity": 255,
+								"layerID": 504,
+								"itemIndex": 24,
+								"count": 48,
+								"preserveTransparency": false,
+								"layerFXVisible": false,
+								"globalAngle": 120,
+								"background": false,
+								"layerSection": "layerSectionStart",
+								"layerLocking": {
+									"protectTransparency": false,
+									"protectComposite": false,
+									"protectPosition": false,
+									"protectAll": false
+								},
+								"group": false,
+								"targetChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"visibleChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"channelRestrictions": [
+									"red",
+									"grain",
+									"blue"
+								],
+								"fillOpacity": 255,
+								"hasUserMask": false,
+								"hasVectorMask": false,
+								"proportionalScaling": false,
+								"layerKind": 7,
+								"hasFilterMask": false,
+								"userMaskDensity": 255,
+								"userMaskFeather": 0,
+								"vectorMaskDensity": 255,
+								"vectorMaskFeather": 0,
+								"bounds": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"boundsNoEffects": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"useAlignedRendering": false,
+								"generatorSettings": {
+								},
+								"keyOriginType": [
+
+								],
+								"fillEnabled": false,
+								"animationProtection": {
+									"animationUnifyPosition": false,
+									"animationUnifyEffects": false,
+									"animationUnifyVisibility": false,
+									"animationPropagate": true
+								},
+								"artboard": {
+									"artboardRect": {
+										"top": 0,
+										"left": 0,
+										"bottom": 0,
+										"right": 0
+									}
+								},
+								"artboardEnabled": false
+							},
+							"children": [
+								{
+									"name": "Music_icon_off",
+									"id": "Music_icon_texture_off",
+									"class": "PIXI.Sprite",
+									"misc": null,
+									"maintainRelativeScale": true,
+									"horizontalPosition": "P2GUI_absolute",
+									"horizontalRelative": null,
+									"horizontalSnapTo": "P2GUI_left",
+									"verticalPosition": "P2GUI_absolute",
+									"verticalRelative": null,
+									"verticalSnapTo": "P2GUI_top",
+									"rect": {
+										"x": -115,
+										"y": 1474,
+										"width": 61,
+										"height": 67
+									},
+									"position": {
+										"x": -84.5,
+										"y": 1507.5
+									},
+									"properties": {
+										"name": "Music_icon_off",
+										"color": "none",
+										"visible": true,
+										"mode": "normal",
+										"opacity": 255,
+										"layerID": 490,
+										"itemIndex": 23,
+										"count": 48,
+										"preserveTransparency": false,
+										"layerFXVisible": false,
+										"globalAngle": 120,
+										"background": false,
+										"layerSection": "layerSectionContent",
+										"layerLocking": {
+											"protectTransparency": false,
+											"protectComposite": false,
+											"protectPosition": false,
+											"protectAll": false
+										},
+										"group": false,
+										"targetChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"visibleChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"channelRestrictions": [
+											"red",
+											"grain",
+											"blue"
+										],
+										"fillOpacity": 255,
+										"hasUserMask": false,
+										"hasVectorMask": false,
+										"proportionalScaling": false,
+										"layerKind": 1,
+										"hasFilterMask": false,
+										"userMaskDensity": 255,
+										"userMaskFeather": 0,
+										"vectorMaskDensity": 255,
+										"vectorMaskFeather": 0,
+										"bounds": {
+											"top": 1474,
+											"left": -115,
+											"bottom": 1541,
+											"right": -54,
+											"width": 61,
+											"height": 67
+										},
+										"boundsNoEffects": {
+											"top": 1474,
+											"left": -115,
+											"bottom": 1541,
+											"right": -54,
+											"width": 61,
+											"height": 67
+										},
+										"useAlignedRendering": false,
+										"generatorSettings": {
+										},
+										"keyOriginType": [
+
+										],
+										"fillEnabled": false,
+										"animationProtection": {
+											"animationUnifyPosition": false,
+											"animationUnifyEffects": false,
+											"animationUnifyVisibility": false,
+											"animationPropagate": true
+										},
+										"artboard": {
+											"artboardRect": {
+												"top": 0,
+												"left": 0,
+												"bottom": 0,
+												"right": 0
+											}
+										},
+										"artboardEnabled": false
+									}
+								}
+							]
+						},
+						{
+							"name": "Music_button_on",
+							"id": null,
+							"class": "P2.Node",
+							"misc": null,
+							"maintainRelativeScale": true,
+							"horizontalPosition": "P2GUI_absolute",
+							"horizontalRelative": null,
+							"horizontalSnapTo": "P2GUI_left",
+							"verticalPosition": "P2GUI_absolute",
+							"verticalRelative": null,
+							"verticalSnapTo": "P2GUI_top",
+							"rect": {
+								"x": -115,
+								"y": 1474,
+								"width": 61,
+								"height": 67
+							},
+							"position": {
+								"x": -84.5,
+								"y": 1507.5
+							},
+							"properties": {
+								"name": "Music_button_on",
+								"color": "blue",
+								"visible": true,
+								"mode": "passThrough",
+								"opacity": 255,
+								"layerID": 502,
+								"itemIndex": 27,
+								"count": 48,
+								"preserveTransparency": false,
+								"layerFXVisible": false,
+								"globalAngle": 120,
+								"background": false,
+								"layerSection": "layerSectionStart",
+								"layerLocking": {
+									"protectTransparency": false,
+									"protectComposite": false,
+									"protectPosition": false,
+									"protectAll": false
+								},
+								"group": false,
+								"targetChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"visibleChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"channelRestrictions": [
+									"red",
+									"grain",
+									"blue"
+								],
+								"fillOpacity": 255,
+								"hasUserMask": false,
+								"hasVectorMask": false,
+								"proportionalScaling": false,
+								"layerKind": 7,
+								"hasFilterMask": false,
+								"userMaskDensity": 255,
+								"userMaskFeather": 0,
+								"vectorMaskDensity": 255,
+								"vectorMaskFeather": 0,
+								"bounds": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"boundsNoEffects": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"useAlignedRendering": false,
+								"generatorSettings": {
+								},
+								"keyOriginType": [
+
+								],
+								"fillEnabled": false,
+								"animationProtection": {
+									"animationUnifyPosition": false,
+									"animationUnifyEffects": false,
+									"animationUnifyVisibility": false,
+									"animationPropagate": true
+								},
+								"artboard": {
+									"artboardRect": {
+										"top": 0,
+										"left": 0,
+										"bottom": 0,
+										"right": 0
+									}
+								},
+								"artboardEnabled": false
+							},
+							"children": [
+								{
+									"name": "Music_icon_on",
+									"id": "Music_icon_texture",
+									"class": "PIXI.Sprite",
+									"misc": null,
+									"maintainRelativeScale": true,
+									"horizontalPosition": "P2GUI_absolute",
+									"horizontalRelative": 0.161,
+									"horizontalSnapTo": "P2GUI_left",
+									"verticalPosition": "P2GUI_absolute",
+									"verticalRelative": 0.931,
+									"verticalSnapTo": "P2GUI_top",
+									"rect": {
+										"x": -115,
+										"y": 1474,
+										"width": 61,
+										"height": 67
+									},
+									"position": {
+										"x": -84.5,
+										"y": 1507.5
+									},
+									"properties": {
+										"name": "Music_icon_on",
+										"color": "blue",
+										"visible": true,
+										"mode": "normal",
+										"opacity": 255,
+										"layerID": 494,
+										"itemIndex": 26,
+										"count": 48,
+										"preserveTransparency": false,
+										"layerFXVisible": false,
+										"globalAngle": 120,
+										"background": false,
+										"layerSection": "layerSectionContent",
+										"layerLocking": {
+											"protectTransparency": false,
+											"protectComposite": false,
+											"protectPosition": false,
+											"protectAll": false
+										},
+										"group": false,
+										"targetChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"visibleChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"channelRestrictions": [
+											"red",
+											"grain",
+											"blue"
+										],
+										"fillOpacity": 255,
+										"hasUserMask": false,
+										"hasVectorMask": false,
+										"proportionalScaling": false,
+										"layerKind": 5,
+										"hasFilterMask": false,
+										"userMaskDensity": 255,
+										"userMaskFeather": 0,
+										"vectorMaskDensity": 255,
+										"vectorMaskFeather": 0,
+										"bounds": {
+											"top": 1474,
+											"left": -115,
+											"bottom": 1541,
+											"right": -54,
+											"width": 61,
+											"height": 67
+										},
+										"boundsNoEffects": {
+											"top": 1474,
+											"left": -115,
+											"bottom": 1541,
+											"right": -54,
+											"width": 61,
+											"height": 67
+										},
+										"smartObject": {
+											"placed": "vectorData",
+											"documentID": "uuid:352cf06e-8a9c-de43-95de-9e9c90294ce7",
+											"linked": false,
+											"fileReference": "Vector Smart Object.ai"
+										},
+										"useAlignedRendering": false,
+										"generatorSettings": {
+										},
+										"keyOriginType": [
+
+										],
+										"fillEnabled": false,
+										"animationProtection": {
+											"animationUnifyPosition": false,
+											"animationUnifyEffects": false,
+											"animationUnifyVisibility": false,
+											"animationPropagate": true
+										},
+										"artboard": {
+											"artboardRect": {
+												"top": 0,
+												"left": 0,
+												"bottom": 0,
+												"right": 0
+											}
+										},
+										"artboardEnabled": false
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Audio_button",
+					"id": null,
+					"class": "P2.SwitchShrink",
+					"misc": "{\n    \"onState\":\"Audio_button_on\",\n    \"offState\":\"Audio_button_off\",\n    \"horizontalPadding\":0.5,\n    \"verticalPadding\":0.5,\n    \"tracking\":\"global.WM.Wormarium.sfxEnabled\"\n}",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": null,
+					"horizontalSnapTo": "P2GUI_left",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": null,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": -243,
+						"y": 1477,
+						"width": 74,
+						"height": 61.0000000000002
+					},
+					"position": {
+						"x": -206,
+						"y": 1507.5
+					},
+					"properties": {
+						"name": "Audio_button",
+						"color": "blue",
+						"visible": true,
+						"mode": "passThrough",
+						"opacity": 255,
+						"layerID": 500,
+						"itemIndex": 36,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionStart",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 7,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"boundsNoEffects": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					},
+					"children": [
+						{
+							"name": "Audio_button_off",
+							"id": null,
+							"class": "P2.Node",
+							"misc": null,
+							"maintainRelativeScale": true,
+							"horizontalPosition": "P2GUI_absolute",
+							"horizontalRelative": null,
+							"horizontalSnapTo": "P2GUI_left",
+							"verticalPosition": "P2GUI_absolute",
+							"verticalRelative": null,
+							"verticalSnapTo": "P2GUI_top",
+							"rect": {
+								"x": -243,
+								"y": 1477,
+								"width": 74,
+								"height": 61.0000000000002
+							},
+							"position": {
+								"x": -206,
+								"y": 1507.5
+							},
+							"properties": {
+								"name": "Audio_button_off",
+								"color": "blue",
+								"visible": true,
+								"mode": "passThrough",
+								"opacity": 255,
+								"layerID": 498,
+								"itemIndex": 32,
+								"count": 48,
+								"preserveTransparency": false,
+								"layerFXVisible": false,
+								"globalAngle": 120,
+								"background": false,
+								"layerSection": "layerSectionStart",
+								"layerLocking": {
+									"protectTransparency": false,
+									"protectComposite": false,
+									"protectPosition": false,
+									"protectAll": false
+								},
+								"group": false,
+								"targetChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"visibleChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"channelRestrictions": [
+									"red",
+									"grain",
+									"blue"
+								],
+								"fillOpacity": 255,
+								"hasUserMask": false,
+								"hasVectorMask": false,
+								"proportionalScaling": false,
+								"layerKind": 7,
+								"hasFilterMask": false,
+								"userMaskDensity": 255,
+								"userMaskFeather": 0,
+								"vectorMaskDensity": 255,
+								"vectorMaskFeather": 0,
+								"bounds": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"boundsNoEffects": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"useAlignedRendering": false,
+								"generatorSettings": {
+								},
+								"keyOriginType": [
+
+								],
+								"fillEnabled": false,
+								"animationProtection": {
+									"animationUnifyPosition": false,
+									"animationUnifyEffects": false,
+									"animationUnifyVisibility": false,
+									"animationPropagate": true
+								},
+								"artboard": {
+									"artboardRect": {
+										"top": 0,
+										"left": 0,
+										"bottom": 0,
+										"right": 0
+									}
+								},
+								"artboardEnabled": false
+							},
+							"children": [
+								{
+									"name": "Audio_icon_off",
+									"id": "Audio_icon_texture_off",
+									"class": "PIXI.Sprite",
+									"misc": null,
+									"maintainRelativeScale": true,
+									"horizontalPosition": "P2GUI_absolute",
+									"horizontalRelative": null,
+									"horizontalSnapTo": "P2GUI_left",
+									"verticalPosition": "P2GUI_absolute",
+									"verticalRelative": null,
+									"verticalSnapTo": "P2GUI_top",
+									"rect": {
+										"x": -243,
+										"y": 1477,
+										"width": 74,
+										"height": 61.0000000000002
+									},
+									"position": {
+										"x": -206,
+										"y": 1507.5
+									},
+									"properties": {
+										"name": "Audio_icon_off",
+										"color": "none",
+										"visible": true,
+										"mode": "normal",
+										"opacity": 255,
+										"layerID": 492,
+										"itemIndex": 31,
+										"count": 48,
+										"preserveTransparency": false,
+										"layerFXVisible": false,
+										"globalAngle": 120,
+										"background": false,
+										"layerSection": "layerSectionContent",
+										"layerLocking": {
+											"protectTransparency": false,
+											"protectComposite": false,
+											"protectPosition": false,
+											"protectAll": false
+										},
+										"group": false,
+										"targetChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"visibleChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"channelRestrictions": [
+											"red",
+											"grain",
+											"blue"
+										],
+										"fillOpacity": 255,
+										"hasUserMask": false,
+										"hasVectorMask": false,
+										"proportionalScaling": false,
+										"layerKind": 1,
+										"hasFilterMask": false,
+										"userMaskDensity": 255,
+										"userMaskFeather": 0,
+										"vectorMaskDensity": 255,
+										"vectorMaskFeather": 0,
+										"bounds": {
+											"top": 1477,
+											"left": -243,
+											"bottom": 1538,
+											"right": -169,
+											"width": 74,
+											"height": 61
+										},
+										"boundsNoEffects": {
+											"top": 1477,
+											"left": -243,
+											"bottom": 1538,
+											"right": -169,
+											"width": 74,
+											"height": 61
+										},
+										"useAlignedRendering": false,
+										"generatorSettings": {
+										},
+										"keyOriginType": [
+
+										],
+										"fillEnabled": false,
+										"animationProtection": {
+											"animationUnifyPosition": false,
+											"animationUnifyEffects": false,
+											"animationUnifyVisibility": false,
+											"animationPropagate": true
+										},
+										"artboard": {
+											"artboardRect": {
+												"top": 0,
+												"left": 0,
+												"bottom": 0,
+												"right": 0
+											}
+										},
+										"artboardEnabled": false
+									}
+								}
+							]
+						},
+						{
+							"name": "Audio_button_on",
+							"id": null,
+							"class": "P2.Node",
+							"misc": null,
+							"maintainRelativeScale": true,
+							"horizontalPosition": "P2GUI_absolute",
+							"horizontalRelative": null,
+							"horizontalSnapTo": "P2GUI_left",
+							"verticalPosition": "P2GUI_absolute",
+							"verticalRelative": null,
+							"verticalSnapTo": "P2GUI_top",
+							"rect": {
+								"x": -243,
+								"y": 1477,
+								"width": 74,
+								"height": 61.0000000000002
+							},
+							"position": {
+								"x": -206,
+								"y": 1507.5
+							},
+							"properties": {
+								"name": "Audio_button_on",
+								"color": "blue",
+								"visible": true,
+								"mode": "passThrough",
+								"opacity": 255,
+								"layerID": 496,
+								"itemIndex": 35,
+								"count": 48,
+								"preserveTransparency": false,
+								"layerFXVisible": false,
+								"globalAngle": 120,
+								"background": false,
+								"layerSection": "layerSectionStart",
+								"layerLocking": {
+									"protectTransparency": false,
+									"protectComposite": false,
+									"protectPosition": false,
+									"protectAll": false
+								},
+								"group": false,
+								"targetChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"visibleChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"channelRestrictions": [
+									"red",
+									"grain",
+									"blue"
+								],
+								"fillOpacity": 255,
+								"hasUserMask": false,
+								"hasVectorMask": false,
+								"proportionalScaling": false,
+								"layerKind": 7,
+								"hasFilterMask": false,
+								"userMaskDensity": 255,
+								"userMaskFeather": 0,
+								"vectorMaskDensity": 255,
+								"vectorMaskFeather": 0,
+								"bounds": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"boundsNoEffects": {
+									"top": 0,
+									"left": 0,
+									"bottom": 1620,
+									"right": 1080,
+									"width": 1080,
+									"height": 1620
+								},
+								"useAlignedRendering": false,
+								"generatorSettings": {
+								},
+								"keyOriginType": [
+
+								],
+								"fillEnabled": false,
+								"animationProtection": {
+									"animationUnifyPosition": false,
+									"animationUnifyEffects": false,
+									"animationUnifyVisibility": false,
+									"animationPropagate": true
+								},
+								"artboard": {
+									"artboardRect": {
+										"top": 0,
+										"left": 0,
+										"bottom": 0,
+										"right": 0
+									}
+								},
+								"artboardEnabled": false
+							},
+							"children": [
+								{
+									"name": "Audio_icon_on",
+									"id": "Audio_icon_texture",
+									"class": "PIXI.Sprite",
+									"misc": null,
+									"maintainRelativeScale": true,
+									"horizontalPosition": "P2GUI_absolute",
+									"horizontalRelative": null,
+									"horizontalSnapTo": "P2GUI_left",
+									"verticalPosition": "P2GUI_absolute",
+									"verticalRelative": null,
+									"verticalSnapTo": "P2GUI_top",
+									"rect": {
+										"x": -243,
+										"y": 1477,
+										"width": 74,
+										"height": 61.0000000000002
+									},
+									"position": {
+										"x": -206,
+										"y": 1507.5
+									},
+									"properties": {
+										"name": "Audio_icon_on",
+										"color": "blue",
+										"visible": true,
+										"mode": "normal",
+										"opacity": 255,
+										"layerID": 495,
+										"itemIndex": 34,
+										"count": 48,
+										"preserveTransparency": false,
+										"layerFXVisible": false,
+										"globalAngle": 120,
+										"background": false,
+										"layerSection": "layerSectionContent",
+										"layerLocking": {
+											"protectTransparency": false,
+											"protectComposite": false,
+											"protectPosition": false,
+											"protectAll": false
+										},
+										"group": false,
+										"targetChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"visibleChannels": [
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											},
+											{
+												"typename": "ActionReference"
+											}
+										],
+										"channelRestrictions": [
+											"red",
+											"grain",
+											"blue"
+										],
+										"fillOpacity": 255,
+										"hasUserMask": false,
+										"hasVectorMask": false,
+										"proportionalScaling": false,
+										"layerKind": 5,
+										"hasFilterMask": false,
+										"userMaskDensity": 255,
+										"userMaskFeather": 0,
+										"vectorMaskDensity": 255,
+										"vectorMaskFeather": 0,
+										"bounds": {
+											"top": 1477,
+											"left": -243,
+											"bottom": 1538,
+											"right": -169,
+											"width": 74,
+											"height": 61
+										},
+										"boundsNoEffects": {
+											"top": 1477,
+											"left": -243,
+											"bottom": 1538,
+											"right": -169,
+											"width": 74,
+											"height": 61
+										},
+										"smartObject": {
+											"placed": "vectorData",
+											"documentID": "uuid:62cac39d-8168-3849-86ab-45df368d7c9d",
+											"linked": false,
+											"fileReference": "Vector Smart Object.ai"
+										},
+										"useAlignedRendering": false,
+										"generatorSettings": {
+										},
+										"keyOriginType": [
+
+										],
+										"fillEnabled": false,
+										"animationProtection": {
+											"animationUnifyPosition": false,
+											"animationUnifyEffects": false,
+											"animationUnifyVisibility": false,
+											"animationPropagate": true
+										},
+										"artboard": {
+											"artboardRect": {
+												"top": 0,
+												"left": 0,
+												"bottom": 0,
+												"right": 0
+											}
+										},
+										"artboardEnabled": false
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Start_button_slide",
+			"id": null,
+			"class": "P2.SlidingNode",
+			"misc": "{\n    \"direction\":\"HORIZONTAL\",\n    \"distance\":150,\n    \"time\":0.5,\n    \"slideForthEvent\":\"mainMenuAudioSlideOn\",\n    \"slideBackEvent\":\"mainMenuAudioSlideOff\",\n    \"easing\": {\n        \"type\":\"P2.Easing.Back.EaseOut\"\n    }\n}",
+			"maintainRelativeScale": true,
+			"horizontalPosition": "P2GUI_relative",
+			"horizontalRelative": 0.5,
+			"horizontalSnapTo": "P2GUI_leftRight",
+			"verticalPosition": "P2GUI_snap",
+			"verticalRelative": 0.931,
+			"verticalSnapTo": "P2GUI_bottom",
+			"rect": {
+				"x": 342,
+				"y": 1446,
+				"width": 396,
+				"height": 124
+			},
+			"position": {
+				"x": 540,
+				"y": 1508
+			},
+			"properties": {
+				"name": "Start_button_slide",
+				"color": "red",
+				"visible": true,
+				"mode": "passThrough",
+				"opacity": 255,
+				"layerID": 267,
+				"itemIndex": 43,
+				"count": 48,
+				"preserveTransparency": false,
+				"layerFXVisible": false,
+				"globalAngle": 120,
+				"background": false,
+				"layerSection": "layerSectionStart",
+				"layerLocking": {
+					"protectTransparency": false,
+					"protectComposite": false,
+					"protectPosition": false,
+					"protectAll": false
+				},
+				"group": false,
+				"targetChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"visibleChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"channelRestrictions": [
+					"red",
+					"grain",
+					"blue"
+				],
+				"fillOpacity": 255,
+				"hasUserMask": false,
+				"hasVectorMask": false,
+				"proportionalScaling": false,
+				"layerKind": 7,
+				"hasFilterMask": false,
+				"userMaskDensity": 255,
+				"userMaskFeather": 0,
+				"vectorMaskDensity": 255,
+				"vectorMaskFeather": 0,
+				"bounds": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"boundsNoEffects": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1620,
+					"right": 1080,
+					"width": 1080,
+					"height": 1620
+				},
+				"useAlignedRendering": false,
+				"generatorSettings": {
+				},
+				"keyOriginType": [
+
+				],
+				"fillEnabled": false,
+				"animationProtection": {
+					"animationUnifyPosition": false,
+					"animationUnifyEffects": false,
+					"animationUnifyVisibility": false,
+					"animationPropagate": true
+				},
+				"artboard": {
+					"artboardRect": {
+						"top": 0,
+						"left": 0,
+						"bottom": 0,
+						"right": 0
+					}
+				},
+				"artboardEnabled": false
+			},
+			"children": [
+				{
+					"name": "Start_button",
+					"id": "UI_MAIN_MENU_PLAY",
+					"class": "P2.ButtonShrink",
+					"misc": "{\n    \"focusedByDefault\": true,\n    \"action\" : [{\n        \"name\":\"PostEvent\",\n        \"eventName\":\"mainMenuSlideOut\"\n    },\n    {\n        \"name\":\"AddToCounter\",\n        \"variable\":\"com.trompogames.wormarium.playButton\"\n    }]\n}  ",
+					"maintainRelativeScale": true,
+					"horizontalPosition": "P2GUI_absolute",
+					"horizontalRelative": 0.5,
+					"horizontalSnapTo": "P2GUI_left",
+					"verticalPosition": "P2GUI_absolute",
+					"verticalRelative": 0.931,
+					"verticalSnapTo": "P2GUI_top",
+					"rect": {
+						"x": 342,
+						"y": 1446,
+						"width": 396,
+						"height": 124
+					},
+					"position": {
+						"x": 540,
+						"y": 1508
+					},
+					"properties": {
+						"name": "Start_button",
+						"color": "red",
+						"visible": true,
+						"mode": "passThrough",
+						"opacity": 255,
+						"layerID": 269,
+						"itemIndex": 42,
+						"count": 48,
+						"preserveTransparency": false,
+						"layerFXVisible": false,
+						"globalAngle": 120,
+						"background": false,
+						"layerSection": "layerSectionStart",
+						"layerLocking": {
+							"protectTransparency": false,
+							"protectComposite": false,
+							"protectPosition": false,
+							"protectAll": false
+						},
+						"group": false,
+						"targetChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"visibleChannels": [
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							},
+							{
+								"typename": "ActionReference"
+							}
+						],
+						"channelRestrictions": [
+							"red",
+							"grain",
+							"blue"
+						],
+						"fillOpacity": 255,
+						"hasUserMask": false,
+						"hasVectorMask": false,
+						"proportionalScaling": false,
+						"layerKind": 7,
+						"hasFilterMask": false,
+						"userMaskDensity": 255,
+						"userMaskFeather": 0,
+						"vectorMaskDensity": 255,
+						"vectorMaskFeather": 0,
+						"bounds": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"boundsNoEffects": {
+							"top": 0,
+							"left": 0,
+							"bottom": 1620,
+							"right": 1080,
+							"width": 1080,
+							"height": 1620
+						},
+						"useAlignedRendering": false,
+						"generatorSettings": {
+						},
+						"keyOriginType": [
+
+						],
+						"fillEnabled": false,
+						"animationProtection": {
+							"animationUnifyPosition": false,
+							"animationUnifyEffects": false,
+							"animationUnifyVisibility": false,
+							"animationPropagate": true
+						},
+						"artboard": {
+							"artboardRect": {
+								"top": 0,
+								"left": 0,
+								"bottom": 0,
+								"right": 0
+							}
+						},
+						"artboardEnabled": false
+					},
+					"children": [
+						{
+							"name": "Start_buttton_mask",
+							"id": "Start_button_texture",
+							"class": "P2.Scale9",
+							"misc": "{\n    \"arbitraryScale\":true,\n    \"arbitraryLook\":false\n}",
+							"maintainRelativeScale": true,
+							"horizontalPosition": "P2GUI_absolute",
+							"horizontalRelative": 0.5,
+							"horizontalSnapTo": "P2GUI_left",
+							"verticalPosition": "P2GUI_absolute",
+							"verticalRelative": 0.931,
+							"verticalSnapTo": "P2GUI_top",
+							"rect": {
+								"x": 342,
+								"y": 1446,
+								"width": 396,
+								"height": 124
+							},
+							"position": {
+								"x": 540,
+								"y": 1508
+							},
+							"properties": {
+								"name": "Start_buttton_mask",
+								"color": "red",
+								"visible": true,
+								"mode": "normal",
+								"opacity": 255,
+								"layerID": 263,
+								"itemIndex": 40,
+								"count": 48,
+								"preserveTransparency": false,
+								"layerFXVisible": false,
+								"globalAngle": 120,
+								"background": false,
+								"layerSection": "layerSectionContent",
+								"layerLocking": {
+									"protectTransparency": false,
+									"protectComposite": false,
+									"protectPosition": false,
+									"protectAll": false
+								},
+								"group": false,
+								"targetChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"visibleChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"channelRestrictions": [
+									"red",
+									"grain",
+									"blue"
+								],
+								"fillOpacity": 255,
+								"hasUserMask": false,
+								"hasVectorMask": false,
+								"proportionalScaling": false,
+								"layerKind": 1,
+								"hasFilterMask": false,
+								"userMaskDensity": 255,
+								"userMaskFeather": 0,
+								"vectorMaskDensity": 255,
+								"vectorMaskFeather": 0,
+								"bounds": {
+									"top": 1446,
+									"left": 342,
+									"bottom": 1570,
+									"right": 738,
+									"width": 396,
+									"height": 124
+								},
+								"boundsNoEffects": {
+									"top": 1446,
+									"left": 342,
+									"bottom": 1570,
+									"right": 738,
+									"width": 396,
+									"height": 124
+								},
+								"useAlignedRendering": false,
+								"generatorSettings": {
+								},
+								"keyOriginType": [
+
+								],
+								"fillEnabled": false,
+								"animationProtection": {
+									"animationUnifyPosition": false,
+									"animationUnifyEffects": false,
+									"animationUnifyVisibility": false,
+									"animationPropagate": true
+								},
+								"artboard": {
+									"artboardRect": {
+										"top": 0,
+										"left": 0,
+										"bottom": 0,
+										"right": 0
+									}
+								},
+								"artboardEnabled": false
+							}
+						},
+						{
+							"name": "play",
+							"id": "UI_TEXT_PLAY",
+							"class": "P2TTF.Label",
+							"misc": null,
+							"maintainRelativeScale": true,
+							"horizontalPosition": "P2GUI_absolute",
+							"horizontalRelative": null,
+							"horizontalSnapTo": "P2GUI_left",
+							"verticalPosition": "P2GUI_absolute",
+							"verticalRelative": null,
+							"verticalSnapTo": "P2GUI_top",
+							"rect": {
+								"x": 441,
+								"y": 1478,
+								"width": 203,
+								"height": 59.9999999999998
+							},
+							"position": {
+								"x": 542.5,
+								"y": 1508
+							},
+							"properties": {
+								"name": "play",
+								"color": "red",
+								"visible": true,
+								"mode": "normal",
+								"opacity": 255,
+								"layerID": 685,
+								"itemIndex": 41,
+								"count": 48,
+								"preserveTransparency": false,
+								"layerFXVisible": false,
+								"globalAngle": 120,
+								"background": false,
+								"textKey": {
+									"textKey": "play",
+									"warp": {
+										"warpStyle": "warpNone",
+										"warpValue": 0,
+										"warpPerspective": 0,
+										"warpPerspectiveOther": 0,
+										"warpRotate": "horizontal"
+									},
+									"textClickPoint": {
+										"horizontal": 34.7685185185185,
+										"vertical": 91.2958140432098
+									},
+									"textGridding": "none",
+									"orientation": "horizontal",
+									"antiAlias": "antiAliasSmooth",
+									"bounds": {
+										"left": 0,
+										"top": -29.4921875,
+										"right": 329,
+										"bottom": 71.77734375
+									},
+									"boundingBox": {
+										"left": 65.57421875,
+										"top": -0.3984375,
+										"right": 268.3125,
+										"bottom": 58.3984375
+									},
+									"textShape": [
+										{
+											"char": "box",
+											"orientation": "horizontal",
+											"transform": {
+												"xx": 1,
+												"xy": 0,
+												"yx": 0,
+												"yy": 1,
+												"tx": 0,
+												"ty": 0
+											},
+											"rowCount": 1,
+											"columnCount": 1,
+											"rowMajorOrder": true,
+											"rowGutter": 0,
+											"columnGutter": 0,
+											"spacing": 0,
+											"frameBaselineAlignment": "alignByAscent",
+											"firstBaselineMinimum": 0,
+											"bounds": {
+												"top": 0,
+												"left": 0,
+												"bottom": 71,
+												"right": 329
+											}
+										}
+									],
+									"textStyleRange": [
+										{
+											"from": 0,
+											"to": 5,
+											"textStyle": {
+												"styleSheetHasParent": true,
+												"fontPostScriptName": "Wormarium_regular",
+												"fontName": "Wormarium",
+												"fontStyleName": "Regular",
+												"fontScript": 0,
+												"fontTechnology": 1,
+												"size": 100,
+												"impliedFontSize": 100,
+												"autoLeading": false,
+												"leading": 40.7456703186035,
+												"impliedLeading": 40.7456703186035,
+												"digitSet": "defaultDigits",
+												"markYDistFromBaseline": 100,
+												"color": {
+													"red": 255,
+													"grain": 251.996093988419,
+													"blue": 193.996340632439
+												},
+												"baseParentStyle": {
+													"fontPostScriptName": "MyriadPro-Regular",
+													"fontName": "Myriad Pro",
+													"fontStyleName": "Regular",
+													"fontScript": 0,
+													"fontTechnology": 0,
+													"size": 12,
+													"impliedFontSize": 12,
+													"horizontalScale": 100,
+													"verticalScale": 100,
+													"syntheticBold": false,
+													"syntheticItalic": false,
+													"autoLeading": true,
+													"tracking": 0,
+													"baselineShift": 0,
+													"impliedBaselineShift": 0,
+													"characterRotation": 0,
+													"autoKern": "metricsKern",
+													"fontCaps": "normal",
+													"digitSet": "defaultDigits",
+													"dirOverride": "dirOverrideDefault",
+													"kashidas": "kashidaDefault",
+													"diacVPos": "diacVPosOpenType",
+													"diacXOffset": 0,
+													"diacYOffset": 0,
+													"markYDistFromBaseline": 100,
+													"baseline": "normal",
+													"otbaseline": "normal",
+													"strikethrough": "strikethroughOff",
+													"underline": "underlineOff",
+													"underlineOffset": 0,
+													"ligature": true,
+													"altligature": false,
+													"contextualLigatures": false,
+													"alternateLigatures": false,
+													"oldStyle": false,
+													"fractions": false,
+													"ordinals": false,
+													"swash": false,
+													"titling": false,
+													"connectionForms": false,
+													"stylisticAlternates": false,
+													"ornaments": false,
+													"justificationAlternates": false,
+													"figureStyle": "normal",
+													"proportionalMetrics": false,
+													"kana": false,
+													"italics": false,
+													"ruby": false,
+													"baselineDirection": "rotated",
+													"textLanguage": "englishLanguage",
+													"japaneseAlternate": "defaultForm",
+													"mojiZume": 0,
+													"gridAlignment": "roman",
+													"enableWariChu": false,
+													"wariChuCount": 2,
+													"wariChuLineGap": 0,
+													"wariChuScale": 0.5,
+													"wariChuWidow": 2,
+													"wariChuOrphan": 2,
+													"wariChuJustification": "wariChuAutoJustify",
+													"tcyUpDown": 0,
+													"tcyLeftRight": 0,
+													"leftAki": -1,
+													"rightAki": -1,
+													"jiDori": 0,
+													"noBreak": false,
+													"color": {
+														"red": 0,
+														"grain": 0,
+														"blue": 0
+													},
+													"strokeColor": {
+														"red": 0,
+														"grain": 0,
+														"blue": 0
+													},
+													"fill": true,
+													"stroke": false,
+													"fillFirst": true,
+													"fillOverPrint": false,
+													"strokeOverPrint": false,
+													"lineCap": "buttCap",
+													"lineJoin": "miterJoin",
+													"lineWidth": 1,
+													"miterLimit": 4,
+													"lineDashoffset": 0
+												}
+											}
+										}
+									],
+									"paragraphStyleRange": [
+										{
+											"from": 0,
+											"to": 5,
+											"paragraphStyle": {
+												"styleSheetHasParent": true,
+												"align": "center"
+											}
+										}
+									],
+									"kerningRange": [
+
+									]
+								},
+								"layerSection": "layerSectionContent",
+								"layerLocking": {
+									"protectTransparency": false,
+									"protectComposite": false,
+									"protectPosition": false,
+									"protectAll": false
+								},
+								"group": false,
+								"targetChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"visibleChannels": [
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									},
+									{
+										"typename": "ActionReference"
+									}
+								],
+								"channelRestrictions": [
+									"red",
+									"grain",
+									"blue"
+								],
+								"fillOpacity": 255,
+								"hasUserMask": false,
+								"hasVectorMask": false,
+								"proportionalScaling": false,
+								"layerKind": 3,
+								"hasFilterMask": false,
+								"userMaskDensity": 255,
+								"userMaskFeather": 0,
+								"vectorMaskDensity": 255,
+								"vectorMaskFeather": 0,
+								"bounds": {
+									"top": 1478,
+									"left": 441,
+									"bottom": 1538,
+									"right": 644,
+									"width": 203,
+									"height": 60
+								},
+								"boundsNoEffects": {
+									"top": 1478,
+									"left": 441,
+									"bottom": 1538,
+									"right": 644,
+									"width": 203,
+									"height": 60
+								},
+								"useAlignedRendering": false,
+								"generatorSettings": {
+								},
+								"keyOriginType": [
+
+								],
+								"fillEnabled": false,
+								"animationProtection": {
+									"animationUnifyPosition": false,
+									"animationUnifyEffects": false,
+									"animationUnifyVisibility": false,
+									"animationPropagate": true
+								},
+								"artboard": {
+									"artboardRect": {
+										"top": 0,
+										"left": 0,
+										"bottom": 0,
+										"right": 0
+									}
+								},
+								"artboardEnabled": false
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Tutorial_mainMenu",
+			"id": "com.trompogames.wormarium.howToPlay",
+			"class": "P2.TutorialEvent",
+			"misc": "{\n    \"displayCount\":1,\n    \"displayOnlyAtCount\":false,\n    \"action\" : {\n        \"name\":\"PushClassScene\",\n        \"classPath\":\"WM.GameMapScene\",\n        \"classParameters\": {\n            \"name\":\"HowToPlay\",\n            \"levelID\":\"com.trompogames.wormarium.tutorial.level01\",\n            \"fullAppleDeaths\":3,\n            \"goldenAppleDeaths\":0,\n            \"assetsToLoad\": [\n                \"resources/graphics/atlases/world_01.json\"\n            ],\n            \"levelLayout\":\"resources/game/World_01_tutorial_howtoPlay.json\",\n            \"mapsSet\":[\n                \"resources/game/Tutorial/LevelMap_w00_l00_s01.json\",\n                \"resources/game/Tutorial/LevelMap_W00_L00_S03.json\"\n            ],\n            \"victoryScreen\":\"resources/gui/Tutorial_victory.json\"\n        }\n    },\n    \"event\":\"mainMenuSlideOut\"\n}",
+			"maintainRelativeScale": true,
+			"horizontalPosition": "P2GUI_absolute",
+			"horizontalRelative": null,
+			"horizontalSnapTo": "P2GUI_left",
+			"verticalPosition": "P2GUI_absolute",
+			"verticalRelative": null,
+			"verticalSnapTo": "P2GUI_top",
+			"rect": {
+				"x": 0,
+				"y": 0,
+				"width": 0,
+				"height": 0
+			},
+			"position": {
+				"x": 0,
+				"y": 0
+			},
+			"properties": {
+				"name": "Tutorial_mainMenu",
+				"color": "yellowColor",
+				"visible": true,
+				"mode": "normal",
+				"opacity": 255,
+				"layerID": 697,
+				"itemIndex": 48,
+				"count": 48,
+				"preserveTransparency": false,
+				"layerFXVisible": false,
+				"globalAngle": 120,
+				"background": false,
+				"layerSection": "layerSectionContent",
+				"layerLocking": {
+					"protectTransparency": false,
+					"protectComposite": false,
+					"protectPosition": false,
+					"protectAll": false
+				},
+				"group": false,
+				"targetChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"visibleChannels": [
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					},
+					{
+						"typename": "ActionReference"
+					}
+				],
+				"channelRestrictions": [
+					"red",
+					"grain",
+					"blue"
+				],
+				"fillOpacity": 255,
+				"hasUserMask": false,
+				"hasVectorMask": false,
+				"proportionalScaling": false,
+				"layerKind": 1,
+				"hasFilterMask": false,
+				"userMaskDensity": 255,
+				"userMaskFeather": 0,
+				"vectorMaskDensity": 255,
+				"vectorMaskFeather": 0,
+				"bounds": {
+					"top": 0,
+					"left": 0,
+					"bottom": 0,
+					"right": 0,
+					"width": 0,
+					"height": 0
+				},
+				"boundsNoEffects": {
+					"top": 0,
+					"left": 0,
+					"bottom": 0,
+					"right": 0,
+					"width": 0,
+					"height": 0
+				},
+				"useAlignedRendering": false,
+				"generatorSettings": {
+				},
+				"keyOriginType": [
+
+				],
+				"fillEnabled": false,
+				"animationProtection": {
+					"animationUnifyPosition": false,
+					"animationUnifyEffects": false,
+					"animationUnifyVisibility": false,
+					"animationPropagate": true
+				},
+				"artboard": {
+					"artboardRect": {
+						"top": 0,
+						"left": 0,
+						"bottom": 0,
+						"right": 0
+					}
+				},
+				"artboardEnabled": false
+			}
+		}
+	]
+}
